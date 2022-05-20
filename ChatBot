@@ -1,0 +1,35 @@
+print("Welcome to ChatBot, how are you?")
+print("I am case sensitive")
+answer = input()
+if answer in["Good", "Ok", "Well", "Decent", "Super", "Happy", "Amazing", "Phenomemal", "Great", "Spectacular", "Fantastic"]:
+  print("That's good")
+else:
+  print("I hope your day gets better soon")
+firstname=input("What is your name?\n")
+print ("That is a great name", firstname)
+age=int(input("and how old are you?\n"))
+print ("That's nice")
+print ("Would you like a stuffed crust for your pizza?")
+answer = input()
+if answer == "Yes":
+  print("What would you like in it?")
+  written=input()
+  print ("Ok I will add", written,"to your crust")
+else: 
+  print("Ok")
+toppings=input("What toppings would you like?\n")
+print ("Anything else?")
+toppings2=input()
+if toppings2=="Yes":
+  topping2=input("What would you like?\n")
+  print("Ok I will add that too!")
+  toppings3=input("Anything else?\n")
+  if toppings3=="Yes":
+    print("What would you like?\n")
+    topping3=input()
+  print("Ok I will add that aswell!")
+  else:
+   print("Ok")
+else:
+  print("Ok")
+print("Ok your order is done and placed. It will be done in 40mins!")
